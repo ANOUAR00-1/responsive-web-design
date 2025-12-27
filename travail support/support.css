@@ -1,0 +1,283 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 25px;
+   }
+header {
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: space-between;
+    
+    }
+main {
+background-color: rgb(93, 39, 181);
+width:100%;
+height: 300px;
+display: flex;
+justify-content: center;
+   
+}
+main #para2 {
+    color: white;
+    padding-left: 5%;
+    padding-top: 45px ;
+}
+
+#para2 span{
+background-color: rgb(29, 18, 114);
+font-size: 30px;
+gap: 30px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: rgb(216, 71, 71);
+    padding: 15px;
+    color: white;
+    border: 0px;
+}
+.photo1 {
+    width: 300px;
+    height: 250px ;
+    margin: 25px  ;
+}
+ul { 
+    list-style: none;
+    display: flex;
+}
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+/* les liens */
+a {
+    padding: 40px 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+    color: black;
+   
+}
+.lorem{
+    border: 1px solid;
+    padding:30px;
+    margin: 30px;
+    font-size: 20px;
+    transition: 2s; 
+    
+}
+.lorem:hover{
+    background-color: rgb(195, 187, 187);
+    cursor: pointer;
+    transition: 2s;
+    transform: scale(1.1);
+}
+
+.containers{
+ text-align: center;
+
+}
+
+.vignt{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-left: 25%;
+}
+
+div #v1 span {
+color: rgb(150, 123, 247);
+font-size: 3rem;font-family: Arial, Helvetica, sans-serif;
+}
+div #v2 span {
+color: rgb(102, 62, 247);
+font-size: 3rem;
+}
+
+div #v3 span {
+color: rgb(186, 68, 246);
+font-size: 3rem;
+ }
+
+div #v4 span {
+color: rgb(225, 156, 240);
+font-size: 3rem;
+}  
+   
+#gradient{
+    /*background: linear-gradient(to right,#197eeb,#6954fd ,#a338fa,#de78f2);*/
+    background: linear-gradient(to right,#197eeb,#6954fd ,#a338fa,#de78f2);
+    -webkit-background-clip : text ;
+    color: transparent;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.container{
+    margin-top: 30px;
+    background: #fafafa;
+    padding: 30px 18%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.image:hover {
+    transform: scale(1.1);
+
+}
+.image {
+    width: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+    transition: 0.5s ; 
+}
+.image img{
+    width: 100%;
+}
+.image h3{
+    line-height: 60px;
+}
+.image div{
+    padding: 0px 20px 10px;
+}
+
+
+#icon{
+    display: none;
+}
+.application{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.applications{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+ 
+#compte{
+    display: flex;
+    gap: 80px;
+    flex-direction: column; 
+    margin: auto ;
+    padding: 40px;
+    width: 55%;
+    align-items: center;
+    
+}
+.post {
+    display: flex;
+    width: 100%;
+    display: flex;
+    gap: 80px;
+    
+    
+}
+.post img{
+    max-width: 400px;
+    width: 300px;
+}
+.text{
+    width: 400px;
+}
+.text h4{
+    color: #f94464;
+}
+.text h3{
+    line-height: 50px;
+}
+#img1{
+    border-radius: 500%;
+    border: 1px solid black;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    
+}
+#img2{
+    border-radius: 500%;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 7px;
+   
+}
+#img3{
+    border-radius: 500%;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    text-align: center;
+}
+footer{
+    background-color: rgb(223, 220, 220);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+
+    }   
+
+footer a{
+        color: black;
+        display: block;
+        padding: 5px;
+        
+    }
+
+
+@media screen and (max-width:767px) {
+    
+p #para2{
+    align-items: self-start;
+}
+
+#icon{
+    display: block;
+    padding: 40px 5px;
+}
+#home {
+    display: none;
+}
+.photo1{
+   width: 80%;
+   height: 80%;
+} 
+#para2{
+    width: 100%;
+}
+main {
+    flex-direction: column;
+    height: fit-content;
+    align-items: self-start;
+    padding: 30px;
+}
+.containers{
+    display: none;
+}
+.post{
+    flex-direction: column;
+}
+footer {
+        gap: 30px;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        
+}
+}
+

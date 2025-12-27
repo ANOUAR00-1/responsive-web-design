@@ -1,0 +1,484 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.home a {
+    width: fit-content;
+    border: 2px black solid;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 10px;
+
+}
+
+.navd li,
+a {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    justify-content: space-evenly;
+    color: black;
+    margin: auto 10px;
+    margin: 10px;
+
+}
+
+header,
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home :hover {
+    background-color: orangered;
+    color: white;
+    transition: 2s;
+}
+
+.navd li :hover {
+    
+    color: coral;
+    transition: 2s;
+
+}
+
+.box1 img {
+    width: 450px;
+    height: 340px;
+    margin: 45px 30px 45px 80px;
+}
+
+.pargraph a {
+    text-decoration: none;
+    color: white;
+    border: 5px crimson solid;
+    background-color: crimson;
+    border-radius: 3px;
+    padding: 12px;
+    margin: 10px 0px;
+
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    background-color: #5d23c0;
+    height: fit-content;
+    color: white;
+}
+
+.pargraph h4 {
+    background-color: rgb(27, 114, 164);
+    width: fit-content;
+    padding: 5px;
+}
+
+.pargraph {
+    margin-top: 120px;
+}
+
+.box2 {
+    width: 40%;
+    text-align: center;
+    margin: 16px auto;
+
+}
+
+.number {
+    display: flex;
+    justify-content: space-between;
+}
+
+.number h1 {
+    font-size: xx-large;
+}
+
+.nu1 h1 {
+    color: rgb(59, 59, 253);
+}
+
+.nu2 h1 {
+    color: rgb(53, 5, 116);
+}
+
+.nu3 h1 {
+    color: rgb(126, 2, 115);
+}
+
+.nu4 h1 {
+    color: rgb(189, 3, 142);
+}
+
+.nu1,
+.nu2,
+.nu3,
+.nu4 {
+    margin: 20px;
+}
+
+.coder {
+    margin: 40px;
+}
+
+.number p {
+    font-size: 13px;
+}
+
+.box2 h3 {
+    margin: 16px;
+}
+
+.boits {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.boits img {
+    width: 450px;
+    height: 340px;
+    margin-bottom: 40px;
+}
+
+.boit {
+    display: flex;
+}
+
+.boit1 {
+    margin: 100px 60px 0px 0px;
+}
+
+.boit2 {
+    margin: 100px 0px 0px 60px;
+}
+
+.boit1 h4 {
+    color: red;
+    margin-bottom: 15px;
+}
+
+.boit1 h3 {
+    margin-bottom: 15px;
+}
+
+.ordbox1 img {
+    width: 280px;
+    height: 180px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.ordboxs {
+    background-color: rgb(170, 169, 169);
+}
+
+.ordbox {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.ordbox1 {
+    height: fit-content;
+    background-color: white;
+    width: 280px;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 40px;
+
+}
+
+.orbox1 {
+    margin-bottom: 40px;
+
+}
+
+.ordbox1 h2 {
+    margin: 10px;
+}
+
+.ordbox1 p {
+    margin: 15px;
+    color: gray;
+}
+
+.footeers {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 30px;
+
+
+}
+
+li {
+    list-style: none;
+}
+
+.bottomfo1 a img {
+    width: 20px;
+    height: 20PX;
+    padding: 10px;
+}
+
+.bottomfo2 .boxfan img {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.bottomfo2 .boxfan div {
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    border-radius: 20px;
+    border: 2px black solid;
+    display: inline-block;
+    text-align: center;
+}
+
+@media (max-width:600px) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-size: 18px;
+
+    }
+
+    .minibox a {
+        width: fit-content;
+        border: 2px black solid;
+        text-decoration: none;
+        padding: 12px 20px;
+        margin: 10px;
+
+    }
+
+    .navd li,
+    a {
+        text-decoration: none;
+        list-style: none;
+        display: inline-block;
+        justify-content: space-evenly;
+        color: black;
+        margin: auto 10px;
+        margin: 10px;
+
+    }
+
+    header,
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .minibox :hover {
+        background-color: orangered;
+        color: white;
+    }
+
+    .navd li :hover {
+        background-color: orangered;
+        color: white;
+    }
+
+    .box1 img {
+        width: 100px;
+        height: 340px;
+        margin: 45px 30px 45px 80px;
+    }
+
+    .pargraph a {
+        text-decoration: none;
+        color: white;
+        border: 5px crimson solid;
+        background-color: crimson;
+        border-radius: 3px;
+        padding: 12px;
+        margin: 10px 0px;
+
+    }
+
+    .box1 {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(48, 0, 53);
+        height: fit-content;
+        color: white;
+    }
+
+    .pargraph h4 {
+        background-color: rgb(4, 4, 56);
+        width: fit-content;
+        padding: 5px;
+
+    }
+
+    .pargraph {
+        margin-top: 120px;
+    }
+
+    .box2 {
+        width: 5%;
+        text-align: center;
+        margin: 16px auto;
+
+    }
+
+    .number {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .number h1 {
+        font-size: xx-large;
+    }
+
+    .nu1 h1 {
+        color: rgb(59, 59, 253);
+    }
+
+    .nu2 h1 {
+        color: rgb(53, 5, 116);
+    }
+
+    .nu3 h1 {
+        color: rgb(126, 2, 115);
+    }
+
+    .nu4 h1 {
+        color: rgb(189, 3, 142);
+    }
+
+    .nu1,
+    .nu2,
+    .nu3,
+    .nu4 {
+        margin: 20px;
+    }
+
+    .coder {
+        margin: 40px;
+    }
+
+    .number p {
+        font-size: 13px;
+    }
+
+    .box2 h3 {
+        margin: 16px;
+    }
+
+    .boits {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .boits img {
+        width: 450px;
+        height: 340px;
+        margin-bottom: 40px;
+    }
+
+    .boit {
+        display: flex;
+    }
+
+    .boit1 {
+        margin: 100px 60px 0px 0px;
+    }
+
+    .boit2 {
+        margin: 100px 0px 0px 60px;
+    }
+
+    .boit1 h4 {
+        color: red;
+        margin-bottom: 15px;
+    }
+
+    .boit1 h3 {
+        margin-bottom: 15px;
+    }
+
+    .ordbox1 img {
+        width: 280px;
+        height: 180px;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .ordboxs {
+        background-color: rgb(170, 169, 169);
+    }
+
+    .ordbox {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .ordbox1 {
+        height: fit-content;
+        background-color: white;
+        width: 280px;
+        border-radius: 5px 5px 0px 0px;
+        margin-top: 40px;
+
+    }
+
+    .orbox1 {
+        margin-bottom: 40px;
+
+    }
+
+    .ordbox1 h2 {
+        margin: 10px;
+    }
+
+    .ordbox1 p {
+        margin: 15px;
+        color: gray;
+    }
+
+    .footeers {
+        display: flex;
+        justify-content: space-between;
+        background-color: gray;
+        padding: 30px;
+
+
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .bottomfo1 a img {
+        width: 20px;
+        height: 20PX;
+        padding: 10px;
+    }
+
+    .bottomfo2 .boxfan img {
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+    }
+
+    .bottomfo2 .boxfan div {
+        width: 40px;
+        height: 40px;
+        padding: 0px;
+        border-radius: 20px;
+        border: 2px black solid;
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+[class*="col-"] {
+    width: 100%;
+}
